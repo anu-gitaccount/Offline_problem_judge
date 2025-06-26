@@ -63,7 +63,7 @@ def run_code(code_file, input_data):
         return f"Error {e}"
     
 
-    
+
 
 
 def normalize_output(output):
@@ -74,16 +74,16 @@ def normalize_output(output):
 def main():
 
     # Locate the Problem Path
-    problem_path = "/home/anurag/cp_tester/scraped_prob"
+    problem_path = "/home/anurag/cp_tester/scraped_prob/two_sum.json"
 
     # Func call to load the problem
     problem = load_problem(problem_path)
 
     # Print the Title and Discription of problem
     print(f"Problem : {problem['title']}")
-    print(problem['discription'])
+    print(problem["description"])
 
-    code_file = "/home/anurag/cp_tester/scraped_prob/code_file"
+    code_file = "/home/anurag/cp_tester/testcases/two_sum.cpp"
     #code_file.strip() : if we are taking input from user
 
 
